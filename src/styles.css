@@ -6,6 +6,20 @@
 
 body {
   font-size: 14px;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 400px;
+  background-color: #1F1B24;
+  border-radius: 4px;
 }
 
 div {
@@ -16,10 +30,15 @@ div {
 div li {
   display: flex;
   align-items: center;
+  justify-content: space-between; 
+}
+
+div ul {
+  padding: 25px;
 }
 
 div li + li {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 button {
@@ -31,9 +50,11 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+  border-radius: 4px;
 }

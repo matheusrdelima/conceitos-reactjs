@@ -30,8 +30,8 @@ function App() {
   }
 
   return (
-    <div>
-      <ul data-testid="repository-list">
+    <div className="container">
+      <ul className="content" data-testid="repository-list">
         {
           repositories.map(repo => (
             <li key={repo.id}>
