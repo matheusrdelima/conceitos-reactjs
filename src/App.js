@@ -44,7 +44,7 @@ function App() {
         }
       </ul>
       
-      <button onClick={handleAddRepository}>Adicionar</button>
+      <button className="addButton" onClick={handleAddRepository}>Adicionar</button>
     </div>
   );
 }

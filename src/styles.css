@@ -41,6 +41,10 @@ div li + li {
   margin-top: 25px;
 }
 
+.addButton {
+  width: 400px;
+}
+
 button {
   background: #7159c1;
   color: #fff;
